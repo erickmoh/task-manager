@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Task Manager Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>📝 Task Manager</h1>
+
+  <div class="input-group">
+    <input type="text" id="taskInput" placeholder="Escribe una tarea...">
+    <button onclick="addTask()">+</button>
+  </div>
+
+  <div class="filters">
+    <button onclick="filterTasks('all')">Todas</button>
+    <button onclick="filterTasks('active')">Pendientes</button>
+    <button onclick="filterTasks('completed')">Completadas</button>
+  </div>
+
+  <p id="counter"></p>
+
+  <ul id="taskList"></ul>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
