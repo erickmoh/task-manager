@@ -57,7 +57,7 @@ task-manager/
 
 Author
 
-Erick Rodolfo Montes Hernández
+Erick Montes 
 
 License
 
