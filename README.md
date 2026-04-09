@@ -1,64 +1,114 @@
-# Task Manager Web App 📝
+# 📝 Task Manager Web App
 
 A full-stack web application to manage tasks with a modern and interactive user interface.
+This project allows users to create, organize, and track tasks efficiently using a clean and responsive design.
 
-## Features
+---
 
-- Create, read, update, and delete tasks (CRUD operations)  
-- Mark tasks as completed  
-- Filter tasks: All, Active, Completed  
-- Responsive and clean UI design  
-- Dynamic task counter  
-- Modular backend with Node.js and Express
+## 🚀 Features
 
-## Technologies
+* Create, read, update, and delete tasks (CRUD operations)
+* Mark tasks as completed
+* Filter tasks:
 
-- **Backend:** Node.js, Express  
-- **Frontend:** HTML, CSS, JavaScript  
-- **Data:** JSON file (for task storage)  
+  * All
+  * Active
+  * Completed
+* Dynamic task counter
+* Responsive and clean UI design
+* Modular backend structure using Express
 
-## Installation
+---
 
-1. Clone the repository:
+## 🛠️ Technologies Used
 
-```bash
-git clone https://github.com/erickmoh/task-manager.git
+* **Backend:** Node.js, Express
+* **Frontend:** HTML5, CSS3, JavaScript
+* **Data Storage:** JSON file
 
-2. Navigate to the backend folder:
-cd task-manager/backend
+---
 
-3. Install dependencies:
-npm install
+## 📂 Project Structure
 
-4. Start the server:
-node server.js
-
-5. Open the frontend:
-Open frontend/index.html in your browser
-
-Usage
-1. Add a new task in the input field and press +
-2. Click on a task to mark it as completed
-3. Click the red ✖ button to delete a task
-4. Use the filter buttons to view all, active, or completed tasks
-
-Folder Structure
 task-manager/
+│
 ├── backend/
 │   ├── controllers/
 │   ├── routes/
 │   ├── server.js
 │   └── data.json
+│
 ├── frontend/
 │   ├── index.html
 │   ├── style.css
 │   └── app.js
+│
 └── README.md
 
-Author
+---
 
-Erick Montes 
+## ⚙️ Installation
 
-License
+1. Clone the repository
+
+```
+git clone https://github.com/erickmoh/task-manager.git
+```
+
+2. Navigate to the backend folder
+
+```
+cd task-manager/backend
+```
+
+3. Install dependencies
+
+```
+npm install
+```
+
+4. Start the server
+
+```
+node server.js
+```
+
+5. Open the frontend
+
+* Open `frontend/index.html` in your browser
+
+---
+
+## 💡 Usage
+
+1. Add a new task using the input field and press `+`
+2. Click a task to mark it as completed
+3. Click the red ✖ button to delete a task
+4. Use filter buttons to view:
+
+   * All
+   * Active
+   * Completed
+
+---
+
+## 🎯 Purpose
+
+This project was built as part of a software engineering portfolio to demonstrate:
+
+* Full-stack development skills
+* REST API structure using Express
+* Frontend interaction and state handling
+* Clean and modular project architecture
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Erick Montes**
+
+---
+
+## 📄 License
 
 This project is licensed under the MIT License.
